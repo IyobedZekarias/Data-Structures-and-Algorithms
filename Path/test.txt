@@ -1,0 +1,40 @@
+GRAPH: name=Exercise2
+VERTEX: name=A 
+VERTEX: name=B 
+VERTEX: name=C 
+VERTEX: name=D
+VERTEX: name=E 
+VERTEX: name=F 
+VERTEX: name=G 
+VERTEX: name=H
+VERTEX: name=J 
+VERTEX: name=I 
+VERTEX: name=J 
+VERTEX: name=K
+# Edges are directional, we can make an undirected graph by reversing edges in a directed graph. EDGE: (A, B, 6)
+EDGE:  (B, A, 6)
+EDGE:  (A, D, 5)
+EDGE:  (D, A, 5)
+EDGE:  (A, C, 2)
+EDGE:  (C, A, 2)
+EDGE:  (B, C, 3)
+EDGE:  (C, B, 3)
+EDGE:  (D, C, 4)
+EDGE:  (C, D, 4)
+EDGE:  (I, A, 6)
+EDGE:  (I, K, 5)
+EDGE:  (D, J, 5)
+EDGE:  (B, F, 2)
+EDGE:  (D, H, 2)
+EDGE:  (H, C, 3)
+EDGE:  (K, B, 3)
+EDGE:  (G, K, 4)
+EDGE:  (J, B, 4)
+EDGE:  (F, K, 5)
+EDGE:  (F, I, 5)
+EDGE:  (F, C, 2)
+EDGE:  (H, G, 2)
+EDGE:  (C, K, 3)
+EDGE:  (G, J, 3)
+EDGE:  (G, B, 4)
+EDGE:  (G, J, 4)

@@ -1,0 +1,5 @@
+,A,,B,,C,
+,PATH,WEIGHT,PATH,WEIGHT,PATH,WEIGHT
+A,no path,0,B,1,BC,4,
+B,CA,7,no path,0,C,3,
+C,A,4,AB,5,no path,0,

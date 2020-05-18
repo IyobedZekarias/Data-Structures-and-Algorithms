@@ -1,0 +1,27 @@
+# Lines which start with hashes are comments; no need to process them
+
+# Let's start with something simple...
+6 - 5
+4 + 4
+8 / 2
+7 * 8
+
+# Not bad, let's make it a bit more challenging...
+3 + 4 * 2
+8 / 2 + 4
+4 * 3 - 4 / 2
+8 - 8 * 8
+
+# Alright, playtime is over. Now let's get to some real business...
+(4 + 4) * (3 - 9)
+4 + 4 * 3 - 9
+4 + 4 * (3 - 9)
+12 - (12 * 4) / 4
+
+# OK sparty pants, let's see you handle these ones...
+(((4 * 2 + (4 - 5) - 8) + 2 * 4) - 3)
+15 - (8 * 3) * (4 - (2 - (4 / 2) / 5)) * 2
+567 * 198 / (235 + 6) + ((4 * 33 - 1) + 87) / 14 + 22
+567 * (198 / 235) + 6 + (4 * 33 - 1) / (64 / 4 - 15)
+
+((((0)))
